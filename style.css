@@ -1,8 +1,15 @@
-@media screen and (min-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
-}
+@media (min-width: @screen-sm) {
+					.tw-header-title {
+						font-size: 54px;
+					}
+				}
+
+				/* Medium devices (desktops, 992px and up) */
+				@media (min-width: @screen-md) {
+				    .tw-header-title {
+						font-size: 40px;
+				    }
+				}
 body {
 	margin: 0;
 	padding: 0;
