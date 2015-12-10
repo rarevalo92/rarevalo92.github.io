@@ -1,3 +1,14 @@
+@media only screen and (max-device-width: 480px) {
+    
+    #logo { background: url(background.JPG); width: 600px; border: 1px #ccc solid; }
+@media only screen and (max-device-width: 480px) {
+#logo { background: url(background.JPG); width: 440px; }
+}
+    
+/* define mobile specific styles come here */
+}
+
+
 body {
 	margin: 0;
 	padding: 0;
@@ -6,6 +17,7 @@ body {
 	font-size: 13px;
 	color: #000000;
 	background: #808080;
+    width: 100%;
 	background-repeat:repeat-x;
     
 
