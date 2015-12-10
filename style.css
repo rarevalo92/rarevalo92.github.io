@@ -1,48 +1,55 @@
 @media only screen and (min-width : 320px) and (max-width : 480px) {
+	#nav_item:hover {
+		background-color: black;
+		color: gray;
+	}
+	#nav_item {
 
-body {
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-	font-size: 13px;
-	color: #000000;
-	background: #808080;
-    width: 100%;
-	background-repeat:repeat-x;
-    
-
-}    
-    
-#page
-{
-  display: block; 
-  height:auto;
-  position: relative; 
-  overflow: hidden; 
-  width: 670px;
+		display: block !important;
+		width: 100% !important;
+		border: none !important;
+		color: #000000;
+		height: 30px !important;
+		text-align: center;
+		padding: 3px !important;
+		text-decoration: none;
+		border-right: none !important;
+		border-bottom: 1px solid white !important;
+		font-family: Arial, sans-serif;
+		font-size: 18px !important;
+	}
+	li {
+		width: 100% !important;
+		height: 40px !important;
+	}
+	#navdiv {
+		text-align: center;
+		width: 100% !important;
+		margin: 0 auto;
+	}
+	#navbar {
+		display: block !important;
+		margin-bottom: 5px !important;
+		padding-top: 0px !important;
+		padding-bottom: 0px !important;
+	}
+	#vert_align {
+		display: block !important;
+		float: bottom !important;
+		width: 100% !important;
+		padding: 0px !important;
+		height: 270px;
+	}
+	.padding_vert {
+		padding: 0px;
+		font-family: Arial, sans-serif;
+		font-size: 16px;
+		width: 100% !important;
+		float: bottom !important;
+		height: auto !important;
+	}
 }
 
-.topNaviagationLink
-{
-text-align:center;
-position:relative;
-margin-top:30px;
-font-size:16px;
-margin-left:-10px;
-width:121px;
-height: 35px;
-line-height: 35px;
-float:left;
-color:#ffffff;
-font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-}   
-    
-    
-    
-    
-    
-}
 body {
 	margin: 0;
 	padding: 0;
