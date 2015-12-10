@@ -123,6 +123,8 @@ background-color:#000000;
 #mainPicture .picture
 {
 position:relative;
+padding: 50px;
+width:auto !important;
 height:auto ! important;
 top:10px;
 margin-left:10px;
