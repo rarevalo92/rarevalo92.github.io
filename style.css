@@ -1,19 +1,8 @@
-@media screen and (min-width: 600px) {
-     
-    @media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) {
     body {
         background-color: lightgreen;
     }
 }
-    
-}
-
-and
-
-@media screen and (max-width: 600px) {
-
-}
-
 body {
 	margin: 0;
 	padding: 0;
