@@ -1,15 +1,16 @@
-@media (min-width: @screen-sm) {
-					.tw-header-title {
-						font-size: 54px;
-					}
-				}
+@media only screen and (max-width: 500px) {
+    .gridmenu {
+        width:100%;
+    }
 
-				/* Medium devices (desktops, 992px and up) */
-				@media (min-width: @screen-md) {
-				    .tw-header-title {
-						font-size: 40px;
-				    }
-				}
+    .gridmain {
+        width:100%;
+    }
+
+    .gridright {
+        width:100%;
+    }
+}
 body {
 	margin: 0;
 	padding: 0;
