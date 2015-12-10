@@ -49,8 +49,8 @@
                 #mainPicture .picture
                 {
                 position:relative;
-                width:100%;
-                height:100%;
+                width:650px;
+                height:325px;
                 top:10px;
                 margin-left:10px;
                 background-image:url(background.JPG);
