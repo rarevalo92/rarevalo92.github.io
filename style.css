@@ -4,7 +4,7 @@
 				}
 				/* Medium devices (desktops, 992px and up) */
 				@media (min-width: @screen-md) {
-				    ..topNaviagationLink
+				    .topNaviagationLink
                     {
                     text-align:center;
                     position:relative;
