@@ -1,13 +1,26 @@
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #000000;
+	background: #808080;
+    width: 100%;
+	background-repeat:repeat-x;
+    
+
+}    
+    
 #page
 {
   display: block; 
   height:auto;
   position: relative; 
   overflow: hidden; 
-    	background-color: #E0E0E0;
-
+  width: 670px;
 }
 
 .topNaviagationLink
@@ -17,15 +30,62 @@ position:relative;
 margin-top:30px;
 font-size:16px;
 margin-left:-10px;
+width:121px;
+height: 35px;
+line-height: 35px;
+float:left;
+color:#ffffff;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}   
+    
+    
+    
+    
+    
+}
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #000000;
+	background: #808080;
+    width: 100%;
+	background-repeat:repeat-x;
+    
+
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#page
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 670px;
+}
+
+.topNaviagationLink
+{
+text-align:center;
+position:relative;
+margin-top:30px;
+font-size:16px;
+margin-left:-10px;
+width:121px;
 height: 35px;
 line-height: 35px;
 float:left;
 color:#ffffff;
 font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
-    
 
-    
+
 .topNaviagationLink a
 {
 text-decoration:none;
@@ -36,8 +96,9 @@ margin-bottom:0px;
 .topNaviagationLink a:hover
 {
 text-align:center;
-color:#000000;
+color:#ffffff;
 display: block;
+width:121px;
 height: 35px;
 line-height: 35px;
 background-image:url(tab.png);
@@ -47,6 +108,7 @@ border-bottom:none;
 #mainPicture
 {
 clear:both;
+width:670px;
 height:345px;
 background-color:#000000;
 }
@@ -54,6 +116,7 @@ background-color:#000000;
 #mainPicture .picture
 {
 position:relative;
+width:650px;
 height:325px;
 top:10px;
 margin-left:10px;
@@ -84,6 +147,7 @@ font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 .contentBox
 {
 margin-top:10px;
+width:670px;
 height:auto;
 background-color:#ffffff;
 }
@@ -92,6 +156,7 @@ background-color:#ffffff;
 {
 position:relative;
 
+width:650px;
 height:auto;
 top:10px;
 margin-left:10px;
@@ -155,6 +220,7 @@ color:#000000;
 blockquote {
 	font-size:12px;
 	text-align:justify;
+	width:400px;
 	color:#000000;
 	padding:15px;
 	margin:10px;
@@ -169,5 +235,3 @@ html, body {
 text-align: center;
 }
 p {text-align: left;}
-    
-}
