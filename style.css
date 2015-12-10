@@ -6,6 +6,8 @@
   height:auto;
   position: relative; 
   overflow: hidden; 
+    	background-color: #E0E0E0;
+
 }
 
 .topNaviagationLink
@@ -34,7 +36,7 @@ margin-bottom:0px;
 .topNaviagationLink a:hover
 {
 text-align:center;
-color:#ffffff;
+color:#000000;
 display: block;
 height: 35px;
 line-height: 35px;
