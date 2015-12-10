@@ -1,3 +1,19 @@
+@media screen and (min-width: 600px) {
+     .sixhundredminwidthclass {
+          width: 30%;
+          float: right;
+     }
+}
+
+and
+
+@media screen and (max-width: 600px) {
+     .sixhundredmaxwidth {
+          clear: both;
+          font-size: 1.3em;
+     }
+}
+
 body {
 	margin: 0;
 	padding: 0;
