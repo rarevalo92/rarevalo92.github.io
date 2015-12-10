@@ -1,39 +1,5 @@
 @media screen and (min-width: 600px) {
-     .topNaviagationLink
-{
-text-align:center;
-position:relative;
-margin-top:30px;
-font-size:16px;
-margin-left:-10px;
-width:121px;
-height: 35px;
-line-height: 35px;
-float:left;
-color:#ffffff;
-font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-}
-
-
-.topNaviagationLink a
-{
-text-decoration:none;
-color:#ffffff;
-margin-bottom:0px;
-}
-
-.topNaviagationLink a:hover
-{
-text-align:center;
-color:#ffffff;
-display: block;
-width:121px;
-height: 35px;
-line-height: 35px;
-background-image:url(tab.png);
-border-bottom:none;
-}
-    
+     
 }
 
 and
