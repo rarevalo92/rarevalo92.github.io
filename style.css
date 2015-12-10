@@ -1,33 +1,4 @@
-@media only screen and (max-width: 500px) {
-    .gridmenu {
-        width:100%;
-    }
-
-    .gridmain {
-        width:100%;
-    }
-
-    .gridright {
-        width:100%;
-    }
-}
-body {
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
-	font-size: 13px;
-	color: #000000;
-	background: #808080;
-    width: 100%;
-	background-repeat:repeat-x;
-    
-
-}
-*
-{
-  margin: 0 auto 0 auto;
- text-align:left;}
+@media only screen and (min-width : 320px) and (max-width : 480px) {
 
 #page
 {
@@ -52,8 +23,9 @@ float:left;
 color:#ffffff;
 font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 }
+    
 
-
+    
 .topNaviagationLink a
 {
 text-decoration:none;
@@ -203,3 +175,50 @@ html, body {
 text-align: center;
 }
 p {text-align: left;}
+    
+    
+    
+}
+body {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #000000;
+	background: #808080;
+    width: 100%;
+	background-repeat:repeat-x;
+    
+
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:left;}
+
+#page
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 670px;
+}
+
+.topNaviagationLink
+{
+text-align:center;
+position:relative;
+margin-top:30px;
+font-size:16px;
+margin-left:-10px;
+width:121px;
+height: 35px;
+line-height: 35px;
+float:left;
+color:#ffffff;
+font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+}
+
+
